@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QrCodeListComponent } from './qr-code-list/qr-code-list.component';
+import { QRCodeModule } from 'angularx-qrcode';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import { QrCodeListComponent } from './qr-code-list/qr-code-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    QRCodeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
