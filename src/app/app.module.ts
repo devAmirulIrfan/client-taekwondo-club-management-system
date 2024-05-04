@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { QrCodeListComponent } from './qr-code-list/qr-code-list.component';
 import { QRCodeModule } from 'angularx-qrcode';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AttendanceComponent } from './attendance/attendance.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QrCodeListComponent
+    QrCodeListComponent,
+    AttendanceComponent
   ],
   imports: [
     BrowserModule,
